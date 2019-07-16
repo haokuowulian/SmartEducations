@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/draw"
+    android:orientation="vertical"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <comndroid.example.recyclerview.smarteducation.layout.Titlelayout
+        android:elevation="@dimen/dp_6"
+        android:id="@id/title"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_56"
+        app:title="首页"
+        />
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="@dimen/dp_1" android:layout_marginTop="@dimen/dp_12" />
+                <com.youth.banner.Banner android:id="@+id/banner" android:layout_width="fill_parent" android:layout_height="@dimen/dp_140" android:layout_marginLeft="@dimen/dp_16" android:layout_marginTop="@dimen/dp_12" android:layout_marginRight="@dimen/dp_16" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dp_100">
+                    <RelativeLayout android:id="@+id/jsqj" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+                            <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_6" android:src="@mipmap/btn_sy_jsqj" />
+                            <TextView android:textSize="@dimen/sp_12" android:textColor="#ff646464" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_1" android:text="@string/jiaoshiqingjia" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@+id/xsqj" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+                            <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_6" android:src="@mipmap/btn_sy_xsqj" />
+                            <TextView android:textSize="@dimen/sp_12" android:textColor="#ff646464" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_1" android:text="@string/xueshengqingjia" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@+id/wdqj" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+                            <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_6" android:src="@mipmap/btn_sy_wdqj" />
+                            <TextView android:textSize="@dimen/sp_12" android:textColor="#ff646464" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_1" android:text="@string/wodeqingjia" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+                <comndroid.example.recyclerview.smarteducation.layout.FiveTextView   android:paddingTop="@dimen/dp_8" android:textSize="@dimen/sp_14" android:textColor="@color/foreground_material_light" android:id="@+id/filetext" android:gravity="center" android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="@dimen/dp_32" />
+
+                <TextView android:textSize="@dimen/sp_17" android:textColor="#ff4a4c4e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_18" android:layout_marginTop="@dimen/dp_14" android:text="@string/cyyy" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dp_100">
+                    <RelativeLayout android:id="@+id/gwjs" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+                            <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_6" android:src="@mipmap/btn_sy_gwjs" />
+                            <TextView android:textSize="@dimen/sp_12" android:textColor="#ff646464" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_1" android:text="@string/gwjs" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@+id/gwfs" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+                            <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_6" android:src="@mipmap/btn_sy_gwfs" />
+                            <TextView android:textSize="@dimen/sp_12" android:textColor="#ff646464" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_1" android:text="@string/gwfs" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@+id/wpbx" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+                            <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_6" android:src="@mipmap/btn_sy_wpbx" />
+                            <TextView android:textSize="@dimen/sp_12" android:textColor="#ff646464" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_1" android:text="@string/wpbx" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@+id/bxcl" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+                            <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_6" android:src="@mipmap/btn_sy_bxcl" />
+                            <TextView android:textSize="@dimen/sp_12" android:textColor="#ff646464" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_1" android:text="@string/bxcl" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dp_100">
+                    <RelativeLayout android:id="@+id/bjcl" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+                            <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_6" android:src="@mipmap/btn_sy_bjcl" />
+                            <TextView android:textSize="@dimen/sp_12" android:textColor="#ff646464" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_1" android:text="@string/bjcl" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@+id/qjcl" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+                            <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_6" android:src="@mipmap/btn_sy_qjcl" />
+                            <TextView android:textSize="@dimen/sp_12" android:textColor="#ff646464" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_1" android:text="@string/qjcl" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                    <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                    <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <View android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

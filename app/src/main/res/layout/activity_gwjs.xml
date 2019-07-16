@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <comndroid.example.recyclerview.smarteducation.layout.Titlelayout
+        android:elevation="@dimen/dp_6"
+        android:id="@+id/title"
+        android:layout_width="fill_parent" android:layout_height="wrap_content"  app:leftimage="@mipmap/btn_nav_back" app:title="@string/gwjsss" />
+    <View android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="@dimen/dp_12" />
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:layout_marginTop="@dimen/dp_12"
+        android:id="@id/sw" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v7.widget.RecyclerView android:id="@+id/recylerview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_12" android:layout_marginTop="@dimen/dp_17" android:src="@mipmap/img_jsqj_photo" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_12">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_17">
+                <TextView android:textSize="@dimen/sp_16" android:textColor="#ff494848" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="胡汉三" />
+                <TextView android:textSize="@dimen/sp_16" android:textColor="#ff494848" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="的请假" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10">
+                <TextView android:textSize="@dimen/sp_14" android:textColor="#ff494848" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kaishijs" />
+                <TextView android:textSize="@dimen/sp_14" android:textColor="#ff494848" android:id="@+id/startTime" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10">
+                <TextView android:textSize="@dimen/sp_14" android:textColor="#ff494848" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/jssjws" />
+                <TextView android:textSize="@dimen/sp_14" android:textColor="#ff494848" android:id="@+id/endTime" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/sp_13" android:textColor="#ffe8a54c" android:id="@id/state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10" android:layout_marginBottom="@dimen/dp_10" android:text="一级审批未通过" />
+        </LinearLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/sp_12" android:textColor="#ff999999" android:id="@+id/clsj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_20" android:layout_marginRight="@dimen/dp_12" android:text="14:20" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="@dimen/dp_1" />
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffe7e5e5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <comndroid.example.recyclerview.smarteducation.layout.Titlelayout
+        android:id="@+id/title"
+        android:background="@color/white"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:leftimage="@mipmap/btn_nav_back"
+        app:title="学生请假" />
+    <View   android:id="@+id/view" android:layout_below="@+id/title" android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="@dimen/dp_12" />
+
+    <ScrollView
+        android:id="@+id/scrollView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/view">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/line1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:background="#ffe7e5e5" android:layout_width="fill_parent" android:layout_height="@dimen/dp_1" />
+                <RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/sp_16" android:textColor="#ff494848" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_12" android:layout_marginTop="@dimen/dp_16" android:layout_marginBottom="@dimen/dp_16" android:text="@string/qjlx" />
+                    <comndroid.example.recyclerview.smarteducation.layout.Xialaliebiao android:textSize="@dimen/sp_16" android:textColor="#ff494848" android:id="@id/qjlx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_16" android:layout_marginRight="@dimen/dp_12" android:layout_marginBottom="@dimen/dp_16" android:layout_alignParentRight="true" app:dd="@string/qxz" />
+                </RelativeLayout>
+                <View android:background="@color/white" android:layout_width="@dimen/dp_12" android:layout_height="@dimen/dp_1" />
+                <RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/sp_16" android:textColor="#ff494848" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_12" android:layout_marginTop="@dimen/dp_16" android:layout_marginBottom="@dimen/dp_16" android:text="学生姓名" />
+                    <EditText android:gravity="right" android:textSize="@dimen/sp_16" android:textColor="#ff494848" android:id="@+id/names" android:background="@drawable/logindd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_16" android:layout_marginRight="@dimen/dp_12" android:layout_marginBottom="@dimen/dp_16" android:hint="请输入学生姓名" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <View android:background="@color/white" android:layout_width="@dimen/dp_12" android:layout_height="@dimen/dp_1" />
+                <RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/sp_16" android:textColor="#ff494848" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_12" android:layout_marginTop="@dimen/dp_16" android:layout_marginBottom="@dimen/dp_16" android:text="学生班级" />
+                    <EditText
+                        android:gravity="right" android:textSize="@dimen/sp_16" android:textColor="#ff494848" android:id="@+id/bj" android:background="@drawable/logindd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_16" android:layout_marginRight="@dimen/dp_12" android:layout_marginBottom="@dimen/dp_16" android:hint="请输入学生班级" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <View android:layout_width="fill_parent" android:layout_height="@dimen/dp_10" />
+                <RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/sp_16" android:textColor="#ff494848" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_12" android:layout_marginTop="@dimen/dp_16" android:layout_marginBottom="@dimen/dp_16" android:text="开始时间" />
+                    <TextView android:textSize="@dimen/sp_16" android:textColor="#ff494848" android:id="@id/startTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_16" android:layout_marginRight="@dimen/dp_12" android:layout_marginBottom="@dimen/dp_16" android:text="@string/starttime" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <View android:background="@color/white" android:layout_width="@dimen/dp_12" android:layout_height="@dimen/dp_1" />
+                <RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/sp_16" android:textColor="#ff494848" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_12" android:layout_marginTop="@dimen/dp_16" android:layout_marginBottom="@dimen/dp_16" android:text="结束时间" />
+                    <TextView android:textSize="@dimen/sp_16" android:textColor="#ff494848" android:id="@id/endTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_16" android:layout_marginRight="@dimen/dp_12" android:layout_marginBottom="@dimen/dp_16" android:text="@string/endtime" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <View android:background="@color/white" android:layout_width="@dimen/dp_12" android:layout_height="@dimen/dp_1" />
+                <RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/sp_16" android:textColor="#ff494848" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_12" android:layout_marginTop="@dimen/dp_16" android:layout_marginBottom="@dimen/dp_16" android:text="请假天数" />
+                    <TextView android:gravity="right" android:textSize="@dimen/sp_16" android:textColor="#ff494848" android:id="@+id/day" android:background="@drawable/logindd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_16" android:layout_marginRight="@dimen/dp_12" android:layout_marginBottom="@dimen/dp_16"  android:layout_alignParentRight="true"  />
+                </RelativeLayout>
+                <View android:background="#ffe7e5e5" android:layout_width="fill_parent" android:layout_height="@dimen/dp_10" />
+                <View android:background="@color/white" android:layout_width="@dimen/dp_12" android:layout_height="@dimen/dp_1" />
+                <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/sp_16" android:textColor="#ff494848" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_12" android:layout_marginTop="@dimen/dp_16" android:text="请假缘由" />
+                    <EditText android:gravity="top" android:id="@id/content" android:background="@drawable/logindd" android:layout_width="fill_parent" android:layout_height="@dimen/dp_60" android:layout_marginLeft="@dimen/dp_12" android:layout_marginTop="@dimen/dp_13" android:layout_marginRight="@dimen/dp_12" android:layout_marginBottom="@dimen/dp_58" android:hint="请输入请假原因（必填）" />
+                </LinearLayout>
+                <View android:layout_width="fill_parent" android:layout_height="@dimen/dp_10" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+    <LinearLayout android:id="@id/buttons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:textColor="@color/white" android:id="@id/button" android:background="@drawable/baoxiubutton" android:layout_width="fill_parent" android:layout_height="@dimen/dp_36" android:layout_margin="@dimen/dp_10" android:text="@string/tjssss" />
+    </LinearLayout>
+</RelativeLayout>

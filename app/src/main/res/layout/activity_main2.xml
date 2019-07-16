@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@+id/shouye_zhuanghuan" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="31.0" />
+    <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.0">
+        <RelativeLayout android:id="@+id/qjry" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@+id/pingjia_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/tabbar_btn_qjry" />
+                <TextView android:textSize="@dimen/sp_10" android:layout_gravity="center_horizontal" android:id="@+id/pingjia_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_1" android:text="请假人员" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/gongzuo" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@+id/shouye_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/tabbar_gz_act" android:layout_centerVertical="true" />
+                <TextView android:textSize="@dimen/sp_10" android:textColor="@color/state" android:layout_gravity="center_horizontal" android:id="@+id/shouye_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_1" android:text="工作" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/wode" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@+id/wode_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_6" android:src="@mipmap/tabbar_btn_person" />
+                <TextView android:textSize="@dimen/sp_10" android:layout_gravity="center_horizontal" android:id="@+id/wode_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_1" android:text="@string/wode" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

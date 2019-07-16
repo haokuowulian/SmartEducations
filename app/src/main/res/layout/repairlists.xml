@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/unse" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@+id/sr" android:background="@color/white"  android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <android.support.v7.widget.RecyclerView android:id="@id/recylerview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+        <LinearLayout android:id="@id/buttons" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <Button android:textColor="@color/white" android:id="@id/button" android:background="@drawable/baoxiubutton" android:layout_width="fill_parent" android:layout_height="@dimen/dp_36" android:layout_margin="@dimen/dp_10" android:text="创建报修" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/rl" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/sr">
+            <LinearLayout android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <Button android:textColor="@color/white" android:id="@+id/buttonss" android:background="@drawable/baoxiubutton" android:layout_width="fill_parent" android:layout_height="@dimen/dp_36" android:layout_margin="@dimen/dp_10" android:text="创建报修" />
+            </LinearLayout>
+            <ImageView android:id="@id/iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/wxx" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/sp_18" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="没有此类报修" android:layout_below="@id/iv" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

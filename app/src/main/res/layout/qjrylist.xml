@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_13">
+        <TextView android:textSize="@dimen/sp_16" android:textColor="#ff494848" android:id="@+id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_12" android:text="王小丁" />
+        <TextView android:textSize="@dimen/sp_16" android:textColor="#ff494848" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="的请假" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/sp_14" android:textColor="#ff23a4fe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp_12" android:text="" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_16">
+        <TextView android:textSize="@dimen/sp_13" android:textColor="#ff9e9e9e" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_12" android:text="@string/zws" />
+        <TextView android:textSize="@dimen/sp_13" android:textColor="#ff9e9e9e" android:id="@+id/zw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="班主任" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_12">
+        <TextView android:textSize="@dimen/sp_13" android:textColor="#ff9e9e9e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_12" android:text="@string/qjsjs" />
+        <TextView android:textSize="@dimen/sp_13" android:textColor="#ff9e9e9e" android:id="@+id/qjsj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="班主任" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_12" android:layout_marginBottom="@dimen/dp_12">
+        <TextView android:textSize="@dimen/sp_13" android:textColor="#ff9e9e9e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_12" android:text="@string/qjsy" />
+        <TextView android:textSize="@dimen/sp_13" android:textColor="#ff9e9e9e" android:id="@+id/qjsy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="班主任" />
+    </LinearLayout>
+    <View android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="@dimen/dp_1" />
+</LinearLayout>

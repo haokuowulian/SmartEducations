@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_width="250.0dip" android:layout_height="183.0dip" app:cardCornerRadius="@dimen/dp_6" app:cardPreventCornerOverlap="true" app:cardUseCompatPadding="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/sp_16" android:textColor="#ff333333" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_8" android:text="拒绝请假" />
+        <EditText android:textSize="@dimen/sp_12" android:gravity="top" android:id="@+id/contents" android:background="@drawable/logindd" android:paddingLeft="@dimen/dp_8" android:paddingTop="@dimen/dp_8" android:layout_width="fill_parent" android:layout_height="@dimen/dp_92" android:layout_marginLeft="@dimen/dp_25" android:layout_marginTop="@dimen/dp_12" android:layout_marginRight="@dimen/dp_25" android:hint="请填写处理原因..." />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@+id/quxiao" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/sp_14" android:textColor="#ffa6a5a5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="取消" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:background="#ffe3e3e3" android:layout_width="@dimen/dp_1" android:layout_height="@dimen/dp_27" android:layout_marginTop="@dimen/dp_9" />
+            <RelativeLayout android:id="@+id/jujueqingjia" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/sp_14" android:textColor="#ffe16651" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="拒绝请假" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

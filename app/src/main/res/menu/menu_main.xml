@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@mipmap/img_wo_grxx" android:id="@+id/mgrxx" android:title="@string/grxx" />
+    <item android:icon="@mipmap/img_wo_wdbx" android:id="@+id/mwdbx" android:title="@string/wdbx" />
+    <item android:icon="@mipmap/img_wo_wdqj" android:id="@+id/mwdqj" android:title="@string/wdqj" />
+</menu>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:background="@color/unse" android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <comndroid.example.recyclerview.smarteducation.layout.Titlelayout android:id="@+id/title" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" app:leftimage="@mipmap/btn_nav_back" app:title="@string/gwfs" />
+        <View android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="@dimen/dp_12" />
+        <LinearLayout android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/dp_43">
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/sp_16" android:textColor="#ff494848" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_12" android:text="@string/bts" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="3.0">
+                <EditText android:textSize="@dimen/sp_16" android:gravity="right" android:id="@+id/titles" android:background="@drawable/logindd" android:paddingTop="@dimen/dp_10" android:paddingRight="@dimen/dp_12" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/qsrbts" />
+            </RelativeLayout>
+        </LinearLayout>
+        <View android:layout_width="fill_parent" android:layout_height="@dimen/dp_1" />
+        <View android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/dp_12" />
+        <TextView android:textSize="@dimen/sp_16" android:textColor="#ff494848" android:background="@color/white" android:paddingLeft="@dimen/dp_12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/nrs" />
+        <View android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/dp_12" />
+        <EditText android:gravity="top" android:id="@+id/content" android:background="@drawable/logindd" android:paddingLeft="@dimen/dp_12" android:layout_width="fill_parent" android:layout_height="@dimen/dp_144" android:hint="@string/qsrnrss" />
+        <View android:layout_width="fill_parent" android:layout_height="@dimen/dp_14" />
+        <LinearLayout android:orientation="horizontal" android:id="@+id/jsr" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/dp_43">
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/sp_16" android:textColor="#ff494848" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_12" android:text="@string/jsr" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="3.0">
+                <ImageView android:id="@id/iv" android:layout_width="wrap_content" android:layout_height="@dimen/dp_16" android:layout_marginRight="@dimen/dp_12" android:src="@mipmap/btn_grxx_go" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <TextView android:textSize="@dimen/sp_16" android:id="@+id/jsrr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10" android:layout_marginRight="@dimen/dp_4" android:text="@string/qxzfsr" android:layout_toLeftOf="@id/iv" />
+            </RelativeLayout>
+        </LinearLayout>
+        <View android:layout_width="fill_parent" android:layout_height="@dimen/dp_14" />
+        <LinearLayout android:orientation="horizontal" android:id="@+id/fswj" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/dp_43">
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/sp_16" android:textColor="#ff494848" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_12" android:text="@string/fswj" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="3.0">
+                <ImageView android:id="@+id/ivs" android:layout_width="wrap_content" android:layout_height="@dimen/dp_16" android:layout_marginRight="@dimen/dp_12" android:src="@mipmap/btn_grxx_go" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <TextView android:textSize="@dimen/sp_16" android:id="@+id/filename" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10" android:layout_marginRight="@dimen/dp_4" android:text="@string/qxzfswj" android:layout_toLeftOf="@+id/ivs" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/dp_60" android:layout_alignParentBottom="true">
+        <Button android:textSize="@dimen/sp_18" android:textColor="@color/white" android:id="@+id/fs" android:background="@drawable/kuang_select" android:layout_width="fill_parent" android:layout_height="@dimen/dp_42" android:layout_marginLeft="@dimen/dp_9" android:layout_marginRight="@dimen/dp_9" android:text="@string/fss" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

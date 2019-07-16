@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@+id/lin" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:background="#ff494848" android:layout_width="@dimen/dp_1" android:layout_height="@dimen/dp_62" android:layout_marginLeft="@dimen/dp_48" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_43" android:src="@mipmap/img_qjxx_wc" />
+        <View android:id="@+id/vis" android:background="#ff494848" android:layout_width="@dimen/dp_1" android:layout_height="@dimen/dp_28" android:layout_marginLeft="@dimen/dp_48" />
+    </LinearLayout>
+    <android.support.v7.widget.CardView android:background="@color/white" android:layout_width="@dimen/dp_220" android:layout_height="@dimen/dp_80" android:layout_marginLeft="@dimen/dp_7" android:layout_marginTop="@dimen/dp_22" android:layout_toRightOf="@+id/lin" app:cardCornerRadius="@dimen/dp_5" app:cardPreventCornerOverlap="false" app:cardUseCompatPadding="true">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dp_9">
+                <TextView android:textSize="@dimen/sp_15" android:textColor="#ff494848" android:id="@+id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_9" android:text="我" />
+                <TextView android:textSize="@dimen/sp_13" android:textColor="#ff494848" android:id="@+id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_9" android:text="发起申请发就发发" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/sp_11" android:textColor="#ff9e9e9e" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_12" android:layout_marginRight="@dimen/dp_6" android:text="2018-9-22 12:00" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

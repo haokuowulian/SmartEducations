@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Titlelayout">
+        <attr name="lefttext" format="string"></attr>
+        <attr name="leftimage" format="dimension"></attr>
+        <attr name="title" format="string"></attr>
+        <attr name="righttext" format="string"></attr>
+        <attr name="rightimage" format="dimension"></attr>
+        <attr name="title_size" format="dimension"></attr>
+    </declare-styleable>
+    <declare-styleable name="Xialaliebiao">
+        <attr name="dd" format="string"></attr>
+    </declare-styleable>
+</resources>

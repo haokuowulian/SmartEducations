@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/dp_61"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dp_60">
+        <ImageView android:layout_width="@dimen/dp_36" android:layout_height="@dimen/dp_36" android:layout_marginLeft="@dimen/dp_12" android:layout_marginTop="@dimen/dp_12" android:src="@mipmap/img_wjjs_wjj" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_12" android:layout_marginTop="@dimen/dp_12">
+            <TextView android:textSize="@dimen/sp_16" android:textColor="#ff494848" android:id="@+id/filetitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="sdjasdfa" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_4">
+                <TextView android:textSize="@dimen/sp_13" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="昨天 15:09" />
+                <TextView android:textSize="@dimen/sp_13" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_4" android:text="来自" />
+                <TextView android:textSize="@dimen/sp_13" android:id="@+id/creater" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="来自" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="@dimen/dp_1" />
+</LinearLayout>

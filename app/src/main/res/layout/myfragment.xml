@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <comndroid.example.recyclerview.smarteducation.layout.Titlelayout
+        android:elevation="@dimen/dp_6"
+        android:id="@id/title"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_56"
+        app:title="我的"
+        />
+    <View android:background="@color/forgets" android:layout_width="fill_parent" android:layout_height="@dimen/dp_12" />
+    <LinearLayout
+
+        android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="@dimen/dp_56" android:layout_height="@dimen/dp_56" android:layout_marginLeft="@dimen/dp_16" android:layout_marginTop="@dimen/dp_16" android:layout_marginBottom="@dimen/dp_16" android:src="@mipmap/img_wdqj_photo" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_19" android:layout_marginTop="@dimen/dp_22">
+            <TextView android:textSize="@dimen/sp_16" android:textColor="@color/name" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="电视剧" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zw" />
+                <TextView android:id="@id/zw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="班主任" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/forgets" android:layout_width="fill_parent" android:layout_height="@dimen/dp_12" />
+
+    <View android:background="@color/forgets" android:layout_width="fill_parent" android:layout_height="@dimen/dp_1" android:layout_marginLeft="@dimen/dp_16" />
+    <LinearLayout android:orientation="horizontal" android:id="@+id/wdbx" android:layout_width="fill_parent" android:layout_height="@dimen/dp_56">
+        <ImageView
+            android:layout_gravity="center_vertical" android:layout_width="@dimen/dp_32" android:layout_height="@dimen/dp_32" android:layout_marginLeft="@dimen/dp_16"   android:src="@mipmap/img_wo_wdbx" />
+        <TextView android:textSize="@dimen/sp_16" android:textColor="@color/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_12"
+            android:layout_gravity="center_vertical"
+            android:text="@string/wdbx" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp_12" android:src="@mipmap/btn_wo_go" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:background="@color/forgets" android:layout_width="fill_parent" android:layout_height="@dimen/dp_1" android:layout_marginLeft="@dimen/dp_16" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/wdqj" android:layout_width="fill_parent" android:layout_height="@dimen/dp_56">
+        <ImageView android:layout_width="@dimen/dp_32" android:layout_height="@dimen/dp_32" android:layout_marginLeft="@dimen/dp_16" android:layout_gravity="center_vertical" android:src="@mipmap/img_wo_wdqj" />
+        <TextView android:textSize="@dimen/sp_16" android:textColor="@color/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_12" android:layout_gravity="center_vertical" android:text="@string/wdqj" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp_12" android:src="@mipmap/btn_wo_go" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:background="@color/forgets" android:layout_width="fill_parent" android:layout_height="@dimen/dp_13" />
+    <LinearLayout android:orientation="horizontal" android:id="@+id/wdsz" android:layout_width="fill_parent" android:layout_height="@dimen/dp_56">
+        <ImageView android:layout_width="@dimen/dp_32" android:layout_height="@dimen/dp_32" android:layout_marginLeft="@dimen/dp_16" android:layout_gravity="center_vertical" android:src="@mipmap/img_wo_sz" />
+        <TextView android:textSize="@dimen/sp_16" android:textColor="@color/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_12" android:layout_gravity="center_vertical" android:text="@string/wdsz" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp_12" android:src="@mipmap/btn_wo_go" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:background="@color/forgets" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

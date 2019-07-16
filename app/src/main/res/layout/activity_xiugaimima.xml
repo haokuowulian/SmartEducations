@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <comndroid.example.recyclerview.smarteducation.layout.Titlelayout android:id="@+id/titlelayout_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_9" app:leftimage="@mipmap/btn_nav_back" app:title="修改密码" />
+    <View android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="@dimen/dp_12" />
+    <TextView android:textSize="@dimen/sp_14" android:textColor="#ff4f4f4f" android:gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/dp_54" android:text="@string/qwndzhszygxmm" />
+    <View android:background="#ffe0dfdf" android:layout_width="fill_parent" android:layout_height="@dimen/dp_20" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dp_48">
+        <EditText android:id="@+id/mima1" android:background="@drawable/logindd" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dp_12" android:hint="请输入旧密码" android:layout_weight="4.0" android:inputType="textPassword" />
+        <RelativeLayout android:id="@+id/dianji1" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@+id/mimakejians" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/btn_sz_xianshi" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:background="#ffe0dfdf" android:layout_width="fill_parent" android:layout_height="@dimen/dp_20" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dp_48">
+        <EditText android:id="@+id/mima2" android:background="@drawable/logindd" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dp_12" android:hint="@string/_8_20" android:layout_weight="4.0" android:inputType="textPassword" />
+        <RelativeLayout android:id="@+id/dianji2" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@+id/mimakejian1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/btn_sz_xianshi" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:background="#ffe0dfdf" android:layout_width="fill_parent" android:layout_height="@dimen/dp_20" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dp_48">
+        <EditText android:id="@+id/mima3" android:background="@drawable/logindd" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dp_12" android:hint="@string/_8_20" android:layout_weight="4.0" android:inputType="textPassword" />
+        <RelativeLayout android:id="@+id/dianji3" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@+id/mimakejian2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/btn_sz_xianshi" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:background="#ffe0dfdf" android:layout_width="fill_parent" android:layout_height="@dimen/dp_52" />
+    <LinearLayout android:orientation="vertical" android:background="#ffe0dfdf" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@+id/xiugaimimatijiao" android:background="@drawable/login_button" android:layout_width="@dimen/dp_340" android:layout_height="@dimen/dp_48" android:text="@string/xgmm" />
+    </LinearLayout>
+    <View android:background="#ffe0dfdf" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>
